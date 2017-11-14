@@ -9,11 +9,14 @@ class App extends React.Component {
 
   render () {
     return (
-      <Router>
+      <Router startingQuoteId={this.props.startingQuoteId}>
         <div>
           <Route
             path='/'
-            component={QuotesDisplay}
+            startingQuoteId={this.props.startingQuoteId}
+            render={(routeProps) => 
+              <QuotesDisplay {...this.props} {...routeProps} /> 
+            }
           />
         </div>
       </Router>

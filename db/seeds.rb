@@ -34,6 +34,10 @@ Quote.create! (
     {
       text: "Happiness is essentially a state of going somewhere, wholeheartedly, one-directionally, without regret or reservation.",
       author: "William H. Sheldon"
+    },
+    {
+      text: "Tomorrow is the most important thing in life. Comes into us at midnight very clean. It's perfect when it arrives and it puts itself in our hands. It hopes we've learned something from yesterday.",
+      author: "John Wayne"
     }
   ]
 )
