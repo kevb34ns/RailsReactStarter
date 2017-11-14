@@ -55,8 +55,8 @@ class QuotesDisplay extends React.Component {
 
   render () {
     const quote = this.state.quote
-    const nextQuoteId = Number(quote.next_id)
-    const previousQuoteId = Number(quote.previous_id)
+    const nextQuoteId = quote.next_id
+    const previousQuoteId = quote.previous_id
     
     return (
       <div>
